@@ -1,6 +1,8 @@
 ## donkey_car – predictor + vae_recon (code-only)
 
-This repository is intentionally **code-only**: it tracks `predictor/` and `vae_recon/` and ignores local artifacts (datasets, frames, checkpoints, eval outputs).
+This repository contains an **`Appendix.pdf`** with additional training details, features, calibration protocols, and evaluation metrics.
+
+Aside from that, this repository is **code-only**: it tracks `predictor/` and `vae_recon/`. It does not contain other artifacts (datasets, frames, checkpoints, eval outputs) due to their prohibitive size.
 
 ### Project layout
 
@@ -38,5 +40,6 @@ python predictor/train_predictor.py --data_dir ../npz_transfer --npz_files traj1
 ```bash
 python predictor/eval_predictor.py --model_path predictor/checkpoints/best_model.pt --data_dir ../npz_transfer --npz_files traj1.npz traj2.npz
 ```
+
 
 

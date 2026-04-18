@@ -42,4 +42,10 @@ python predictor/eval_predictor.py --model_path predictor/checkpoints/best_model
 ```
 
 
+## Review Notice
 
+This repository is being shared solely for peer review and editorial evaluation associated with the current manuscript submission.
+
+To preserve the integrity of the review process, this repository may remain available only during the review period and may be restricted, modified, or removed after the review process is complete.
+
+Please do not redistribute the contents of this repository outside the review process.
